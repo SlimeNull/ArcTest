@@ -2,4 +2,4 @@
 
 Draw arc with GDI+
 
-![](assets/preview.webp)
+![](/Assets/preview.webp)
