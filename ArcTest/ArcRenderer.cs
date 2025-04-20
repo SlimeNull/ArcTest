@@ -164,7 +164,7 @@ namespace ArcTest
             var angleStart = Start / MathF.PI * 180;
             var angleEnd = End / MathF.PI * 180;
 
-            GraphicsPath path = new GraphicsPath();
+            using GraphicsPath path = new GraphicsPath();
             path.StartFigure();
 
             if (EnabledRoundedEndPoint)
